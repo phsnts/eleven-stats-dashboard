@@ -1,5 +1,7 @@
-import { Trophy, TrendingUp, TrendingDown, Calendar, User } from "lucide-react";
+import { Trophy, TrendingUp, TrendingDown, Calendar, User, ChevronLeft, ChevronRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { useState } from "react";
 
 interface Match {
   id: string;
@@ -20,6 +22,15 @@ interface MatchListProps {
 }
 
 export default function MatchList({ matches }: MatchListProps) {
+  const [currentPage, setCurrentPage] = useState(1);
+  const matchesPerPage = 25;
+
+  // Calcular índices para paginação
+  const indexOfLastMatch = currentPage * matchesPerPage;
+  const indexOfFirstMatch = indexOfLastMatch - matchesPerPage;
+  const currentMatches = matches.slice(indexOfFirstMatch, indexOfLastMatch);
+  const totalPages = Math.ceil(matches.length / matchesPerPage);
+
   const formatDate = (timestamp: string) => {
     // Se já está em formato legível, retornar direto
     if (timestamp.includes('Today at')) {
@@ -61,8 +72,9 @@ export default function MatchList({ matches }: MatchListProps) {
   }
 
   return (
-    <div className="space-y-3">
-      {matches.map((match) => {
+    <div>
+      <div className="space-y-3 mb-6">
+      {currentMatches.map((match) => {
         const isWin = match.playerScore > match.opponentScore;
         const eloDiff = match.opponentElo - match.eloBefore;
 
@@ -152,6 +164,69 @@ export default function MatchList({ matches }: MatchListProps) {
           </div>
         );
       })}
+      </div>
+
+      {/* Paginação */}
+      {totalPages > 1 && (
+        <div className="flex items-center justify-between border-t pt-4">
+          <div className="text-sm text-slate-600">
+            Mostrando {indexOfFirstMatch + 1} - {Math.min(indexOfLastMatch, matches.length)} de {matches.length} partidas
+          </div>
+          
+          <div className="flex items-center gap-2">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+              disabled={currentPage === 1}
+            >
+              <ChevronLeft size={16} />
+              Anterior
+            </Button>
+            
+            <div className="flex items-center gap-1">
+              {Array.from({ length: totalPages }, (_, i) => i + 1)
+                .filter(page => {
+                  // Mostrar primeira, última e páginas próximas à atual
+                  return page === 1 || 
+                         page === totalPages || 
+                         Math.abs(page - currentPage) <= 1;
+                })
+                .map((page, idx, arr) => {
+                  // Adicionar "..." entre páginas não consecutivas
+                  const prevPage = arr[idx - 1];
+                  const showEllipsis = prevPage && page - prevPage > 1;
+                  
+                  return (
+                    <div key={page} className="flex items-center gap-1">
+                      {showEllipsis && (
+                        <span className="px-2 text-slate-400">...</span>
+                      )}
+                      <Button
+                        variant={currentPage === page ? "default" : "outline"}
+                        size="sm"
+                        onClick={() => setCurrentPage(page)}
+                        className="min-w-[40px]"
+                      >
+                        {page}
+                      </Button>
+                    </div>
+                  );
+                })}
+            </div>
+            
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+              disabled={currentPage === totalPages}
+            >
+              Próxima
+              <ChevronRight size={16} />
+            </Button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
