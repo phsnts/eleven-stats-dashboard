@@ -13,6 +13,30 @@ export default function Home() {
   const [gameLimit, setGameLimit] = useState<string>("all");
   const [dateFilter, setDateFilter] = useState<string>("all");
 
+  // Função para converter timestamp do formato "Today at X:XX PM" para Date
+  const parseTimestamp = (timestamp: string): Date => {
+    const now = new Date();
+    
+    if (timestamp.includes('Today at')) {
+      return now; // Jogos de hoje
+    } else if (timestamp.includes('Last Tuesday') || timestamp.includes('Last Monday') || timestamp.includes('Last Friday')) {
+      // Jogos da semana passada
+      const daysAgo = 7;
+      const date = new Date();
+      date.setDate(date.getDate() - daysAgo);
+      return date;
+    } else if (timestamp.match(/\d{2}\/\d{2}\/\d{4}/)) {
+      // Formato MM/DD/YYYY
+      const parts = timestamp.match(/(\d{2})\/(\d{2})\/(\d{4})/);
+      if (parts) {
+        return new Date(parseInt(parts[3]), parseInt(parts[1]) - 1, parseInt(parts[2]));
+      }
+    }
+    
+    // Fallback: retornar data antiga
+    return new Date(2020, 0, 1);
+  };
+
   // Filtrar partidas baseado nos filtros selecionados
   const filteredMatches = useMemo(() => {
     let matches = [...matchesData];
@@ -25,16 +49,23 @@ export default function Home() {
       switch (dateFilter) {
         case "today":
           filterDate.setHours(0, 0, 0, 0);
+          matches = matches.filter(m => m.timestamp.includes('Today at'));
           break;
         case "week":
           filterDate.setDate(now.getDate() - 7);
+          matches = matches.filter(m => {
+            const matchDate = parseTimestamp(m.timestamp);
+            return matchDate >= filterDate;
+          });
           break;
         case "month":
           filterDate.setMonth(now.getMonth() - 1);
+          matches = matches.filter(m => {
+            const matchDate = parseTimestamp(m.timestamp);
+            return matchDate >= filterDate;
+          });
           break;
       }
-
-      matches = matches.filter(m => new Date(m.timestamp) >= filterDate);
     }
 
     // Filtro por quantidade
