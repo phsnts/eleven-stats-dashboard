@@ -21,26 +21,34 @@ interface MatchListProps {
 
 export default function MatchList({ matches }: MatchListProps) {
   const formatDate = (timestamp: string) => {
-    const date = new Date(timestamp);
-    const today = new Date();
-    const yesterday = new Date(today);
-    yesterday.setDate(yesterday.getDate() - 1);
-
-    const isToday = date.toDateString() === today.toDateString();
-    const isYesterday = date.toDateString() === yesterday.toDateString();
-
-    if (isToday) {
-      return `Hoje às ${date.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" })}`;
-    } else if (isYesterday) {
-      return `Ontem às ${date.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" })}`;
-    } else {
-      return date.toLocaleString("pt-BR", { 
-        day: "2-digit", 
-        month: "2-digit", 
-        hour: "2-digit", 
-        minute: "2-digit" 
-      });
+    // Se já está em formato legível, retornar direto
+    if (timestamp.includes('Today at')) {
+      return timestamp.replace('Today at', 'Hoje às');
+    } else if (timestamp.includes('Last Tuesday')) {
+      return timestamp.replace('Last Tuesday at', 'Terça passada às');
+    } else if (timestamp.includes('Last Monday')) {
+      return timestamp.replace('Last Monday at', 'Segunda passada às');
+    } else if (timestamp.includes('Last Friday')) {
+      return timestamp.replace('Last Friday at', 'Sexta passada às');
+    } else if (timestamp.includes('Last Wednesday')) {
+      return timestamp.replace('Last Wednesday at', 'Quarta passada às');
+    } else if (timestamp.includes('Last Thursday')) {
+      return timestamp.replace('Last Thursday at', 'Quinta passada às');
+    } else if (timestamp.includes('Last Saturday')) {
+      return timestamp.replace('Last Saturday at', 'Sábado passado às');
+    } else if (timestamp.includes('Last Sunday')) {
+      return timestamp.replace('Last Sunday at', 'Domingo passado às');
     }
+    
+    // Para datas no formato MM/DD/YYYY, tentar converter
+    const dateMatch = timestamp.match(/(\d{2})\/(\d{2})\/(\d{4})/);
+    if (dateMatch) {
+      const [_, month, day, year] = dateMatch;
+      return `${day}/${month}/${year}`;
+    }
+    
+    // Fallback: retornar timestamp original
+    return timestamp;
   };
 
   if (matches.length === 0) {
