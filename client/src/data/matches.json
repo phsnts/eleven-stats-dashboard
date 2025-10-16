@@ -1,0 +1,826 @@
+[
+  {
+    "id": "#69265492",
+    "timestamp": "2025-10-16T17:39:00",
+    "player": "PHSANTOS",
+    "opponent": "LUKIEZED",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "11-4",
+      "12-10"
+    ],
+    "eloChange": 23,
+    "eloBefore": 2045,
+    "eloAfter": 2068,
+    "opponentElo": 2217
+  },
+  {
+    "id": "#69265380",
+    "timestamp": "2025-10-16T17:34:00",
+    "player": "PHSANTOS",
+    "opponent": "KAIZEN71",
+    "playerScore": 1,
+    "opponentScore": 2,
+    "rounds": [
+      "11-9",
+      "3-11",
+      "2-11"
+    ],
+    "eloChange": -10,
+    "eloBefore": 2055,
+    "eloAfter": 2045,
+    "opponentElo": 2172
+  },
+  {
+    "id": "#69265244",
+    "timestamp": "2025-10-16T17:29:00",
+    "player": "PHSANTOS",
+    "opponent": "PASCAL85540",
+    "playerScore": 0,
+    "opponentScore": 2,
+    "rounds": [
+      "11-13",
+      "11-13"
+    ],
+    "eloChange": -12,
+    "eloBefore": 2067,
+    "eloAfter": 2055,
+    "opponentElo": 2155
+  },
+  {
+    "id": "#69265123",
+    "timestamp": "2025-10-16T17:23:00",
+    "player": "PHSANTOS",
+    "opponent": "PABLO_CL",
+    "playerScore": 1,
+    "opponentScore": 2,
+    "rounds": [
+      "12-14",
+      "11-9",
+      "6-11"
+    ],
+    "eloChange": -3,
+    "eloBefore": 2070,
+    "eloAfter": 2067,
+    "opponentElo": 2409
+  },
+  {
+    "id": "#69265018",
+    "timestamp": "2025-10-16T17:19:00",
+    "player": "PHSANTOS",
+    "opponent": "LLLVVVLLL",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "11-7",
+      "11-6"
+    ],
+    "eloChange": 19,
+    "eloBefore": 2051,
+    "eloAfter": 2070,
+    "opponentElo": 2136
+  },
+  {
+    "id": "#69264903",
+    "timestamp": "2025-10-16T17:14:00",
+    "player": "PHSANTOS",
+    "opponent": "ZXT891211",
+    "playerScore": 0,
+    "opponentScore": 2,
+    "rounds": [
+      "7-11",
+      "11-13"
+    ],
+    "eloChange": -20,
+    "eloBefore": 2071,
+    "eloAfter": 2051,
+    "opponentElo": 1980
+  },
+  {
+    "id": "#69264815",
+    "timestamp": "2025-10-16T17:10:00",
+    "player": "PHSANTOS",
+    "opponent": "DTRUMP007",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "11-7",
+      "11-6"
+    ],
+    "eloChange": 13,
+    "eloBefore": 2058,
+    "eloAfter": 2071,
+    "opponentElo": 2014
+  },
+  {
+    "id": "#69264724",
+    "timestamp": "2025-10-16T17:07:00",
+    "player": "PHSANTOS",
+    "opponent": "SIMPLECTOMORFO",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "11-5",
+      "11-5"
+    ],
+    "eloChange": 12,
+    "eloBefore": 2046,
+    "eloAfter": 2058,
+    "opponentElo": 1958
+  },
+  {
+    "id": "#69264559",
+    "timestamp": "2025-10-16T17:01:00",
+    "player": "PHSANTOS",
+    "opponent": "ZAPSSS",
+    "playerScore": 0,
+    "opponentScore": 2,
+    "rounds": [
+      "13-15",
+      "8-11"
+    ],
+    "eloChange": -8,
+    "eloBefore": 2054,
+    "eloAfter": 2046,
+    "opponentElo": 2226
+  },
+  {
+    "id": "#69264430",
+    "timestamp": "2025-10-16T16:56:00",
+    "player": "PHSANTOS",
+    "opponent": "SWICK12",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "11-8",
+      "11-6"
+    ],
+    "eloChange": 17,
+    "eloBefore": 2037,
+    "eloAfter": 2054,
+    "opponentElo": 2076
+  },
+  {
+    "id": "#69264198",
+    "timestamp": "2025-10-16T16:46:00",
+    "player": "PHSANTOS",
+    "opponent": "BRYBAX00",
+    "playerScore": 2,
+    "opponentScore": 1,
+    "rounds": [
+      "2-11",
+      "11-7",
+      "13-11"
+    ],
+    "eloChange": 19,
+    "eloBefore": 2018,
+    "eloAfter": 2037,
+    "opponentElo": 2101
+  },
+  {
+    "id": "#69264131",
+    "timestamp": "2025-10-16T16:44:00",
+    "player": "PHSANTOS",
+    "opponent": "CKFR1",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "11-7",
+      "11-1"
+    ],
+    "eloChange": 3,
+    "eloBefore": 2015,
+    "eloAfter": 2018,
+    "opponentElo": 1640
+  },
+  {
+    "id": "#69263995",
+    "timestamp": "2025-10-16T16:39:00",
+    "player": "PHSANTOS",
+    "opponent": "ARTHURNAVARRO",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "11-8",
+      "11-7"
+    ],
+    "eloChange": 20,
+    "eloBefore": 1995,
+    "eloAfter": 2015,
+    "opponentElo": 2090
+  },
+  {
+    "id": "#69263848",
+    "timestamp": "2025-10-16T16:34:00",
+    "player": "PHSANTOS",
+    "opponent": "CAMAVINGOATBZH",
+    "playerScore": 1,
+    "opponentScore": 2,
+    "rounds": [
+      "11-7",
+      "8-11",
+      "8-11"
+    ],
+    "eloChange": -12,
+    "eloBefore": 2007,
+    "eloAfter": 1995,
+    "opponentElo": 2073
+  },
+  {
+    "id": "#69263655",
+    "timestamp": "2025-10-16T16:28:00",
+    "player": "PHSANTOS",
+    "opponent": "N0THACKERY",
+    "playerScore": 2,
+    "opponentScore": 1,
+    "rounds": [
+      "11-8",
+      "6-11",
+      "11-5"
+    ],
+    "eloChange": 8,
+    "eloBefore": 1999,
+    "eloAfter": 2007,
+    "opponentElo": 1813
+  },
+  {
+    "id": "#69263587",
+    "timestamp": "2025-10-16T16:26:00",
+    "player": "PHSANTOS",
+    "opponent": "JUMPINGOCTOPUS1809",
+    "playerScore": 0,
+    "opponentScore": 2,
+    "rounds": [
+      "0-11",
+      "4-11"
+    ],
+    "eloChange": -8,
+    "eloBefore": 2007,
+    "eloAfter": 1999,
+    "opponentElo": 2195
+  },
+  {
+    "id": "#69263459",
+    "timestamp": "2025-10-16T16:21:00",
+    "player": "PHSANTOS",
+    "opponent": "MRS.SPACESHIPZ",
+    "playerScore": 1,
+    "opponentScore": 2,
+    "rounds": [
+      "4-11",
+      "11-7",
+      "9-11"
+    ],
+    "eloChange": -10,
+    "eloBefore": 2017,
+    "eloAfter": 2007,
+    "opponentElo": 2151
+  },
+  {
+    "id": "#69263400",
+    "timestamp": "2025-10-16T16:15:00",
+    "player": "PHSANTOS",
+    "opponent": "SIRCONFLEX",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "15-13",
+      "12-10"
+    ],
+    "eloChange": 13,
+    "eloBefore": 2004,
+    "eloAfter": 2017,
+    "opponentElo": 1943
+  },
+  {
+    "id": "#69216782",
+    "timestamp": "2025-10-15T18:31:00",
+    "player": "PHSANTOS",
+    "opponent": "CALDERANO157",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "11-8",
+      "11-7"
+    ],
+    "eloChange": 10,
+    "eloBefore": 1994,
+    "eloAfter": 2004,
+    "opponentElo": 1863
+  },
+  {
+    "id": "#69216682",
+    "timestamp": "2025-10-15T18:28:00",
+    "player": "PHSANTOS",
+    "opponent": "PRENDICITO",
+    "playerScore": 0,
+    "opponentScore": 2,
+    "rounds": [
+      "8-11",
+      "7-11"
+    ],
+    "eloChange": -16,
+    "eloBefore": 2010,
+    "eloAfter": 1994,
+    "opponentElo": 1995
+  },
+  {
+    "id": "#69216598",
+    "timestamp": "2025-10-15T18:24:00",
+    "player": "PHSANTOS",
+    "opponent": "APEAPOH",
+    "playerScore": 1,
+    "opponentScore": 2,
+    "rounds": [
+      "9-11",
+      "11-4",
+      "7-11"
+    ],
+    "eloChange": -12,
+    "eloBefore": 2022,
+    "eloAfter": 2010,
+    "opponentElo": 2101
+  },
+  {
+    "id": "#69215720",
+    "timestamp": "2025-10-15T15:56:00",
+    "player": "PHSANTOS",
+    "opponent": "QUICK_REFLEX",
+    "playerScore": 1,
+    "opponentScore": 2,
+    "rounds": [
+      "11-1",
+      "12-15",
+      "4-12"
+    ],
+    "eloChange": -8,
+    "eloBefore": 2116,
+    "eloAfter": 2108,
+    "opponentElo": 2096
+  },
+  {
+    "id": "#69215730",
+    "timestamp": "2025-10-15T16:01:00",
+    "player": "PHSANTOS",
+    "opponent": "CHOP_KING",
+    "playerScore": 2,
+    "opponentScore": 1,
+    "rounds": [
+      "7-11",
+      "13-8",
+      "15-8"
+    ],
+    "eloChange": 6,
+    "eloBefore": 2110,
+    "eloAfter": 2116,
+    "opponentElo": 2126
+  },
+  {
+    "id": "#69215740",
+    "timestamp": "2025-10-15T16:06:00",
+    "player": "PHSANTOS",
+    "opponent": "BLOCK_BOSS",
+    "playerScore": 1,
+    "opponentScore": 2,
+    "rounds": [
+      "14-12",
+      "12-15",
+      "5-15"
+    ],
+    "eloChange": -6,
+    "eloBefore": 2116,
+    "eloAfter": 2110,
+    "opponentElo": 1947
+  },
+  {
+    "id": "#69215750",
+    "timestamp": "2025-10-15T16:11:00",
+    "player": "PHSANTOS",
+    "opponent": "SPINMASTER",
+    "playerScore": 2,
+    "opponentScore": 1,
+    "rounds": [
+      "15-9",
+      "11-5",
+      "4-14"
+    ],
+    "eloChange": 13,
+    "eloBefore": 2103,
+    "eloAfter": 2116,
+    "opponentElo": 2223
+  },
+  {
+    "id": "#69215760",
+    "timestamp": "2025-10-15T16:16:00",
+    "player": "PHSANTOS",
+    "opponent": "NETPLAY_PRO",
+    "playerScore": 0,
+    "opponentScore": 2,
+    "rounds": [
+      "6-14",
+      "8-12"
+    ],
+    "eloChange": -11,
+    "eloBefore": 2114,
+    "eloAfter": 2103,
+    "opponentElo": 1965
+  },
+  {
+    "id": "#69215770",
+    "timestamp": "2025-10-15T16:21:00",
+    "player": "PHSANTOS",
+    "opponent": "FLIP_EXPERT",
+    "playerScore": 0,
+    "opponentScore": 2,
+    "rounds": [
+      "11-14",
+      "10-15"
+    ],
+    "eloChange": -22,
+    "eloBefore": 2136,
+    "eloAfter": 2114,
+    "opponentElo": 2099
+  },
+  {
+    "id": "#69215780",
+    "timestamp": "2025-10-15T16:26:00",
+    "player": "PHSANTOS",
+    "opponent": "BACKSPIN_KING",
+    "playerScore": 2,
+    "opponentScore": 1,
+    "rounds": [
+      "11-7",
+      "3-13",
+      "15-5"
+    ],
+    "eloChange": 18,
+    "eloBefore": 2118,
+    "eloAfter": 2136,
+    "opponentElo": 2243
+  },
+  {
+    "id": "#69215790",
+    "timestamp": "2025-10-15T16:31:00",
+    "player": "PHSANTOS",
+    "opponent": "COUNTER_KING",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "14-6",
+      "11-8"
+    ],
+    "eloChange": 16,
+    "eloBefore": 2102,
+    "eloAfter": 2118,
+    "opponentElo": 1952
+  },
+  {
+    "id": "#69215800",
+    "timestamp": "2025-10-15T16:36:00",
+    "player": "PHSANTOS",
+    "opponent": "PADDLE_WARRIOR",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "12-9",
+      "11-9"
+    ],
+    "eloChange": 20,
+    "eloBefore": 2082,
+    "eloAfter": 2102,
+    "opponentElo": 2257
+  },
+  {
+    "id": "#69215810",
+    "timestamp": "2025-10-15T16:41:00",
+    "player": "PHSANTOS",
+    "opponent": "BLADE_RUNNER",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "15-7",
+      "13-10"
+    ],
+    "eloChange": 16,
+    "eloBefore": 2066,
+    "eloAfter": 2082,
+    "opponentElo": 2065
+  },
+  {
+    "id": "#69215820",
+    "timestamp": "2025-10-15T16:46:00",
+    "player": "PHSANTOS",
+    "opponent": "DRAGONKING",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "15-7",
+      "11-9"
+    ],
+    "eloChange": 23,
+    "eloBefore": 2043,
+    "eloAfter": 2066,
+    "opponentElo": 1918
+  },
+  {
+    "id": "#69215830",
+    "timestamp": "2025-10-15T16:51:00",
+    "player": "PHSANTOS",
+    "opponent": "SMASH_HERO",
+    "playerScore": 1,
+    "opponentScore": 2,
+    "rounds": [
+      "14-9",
+      "4-13",
+      "7-11"
+    ],
+    "eloChange": -9,
+    "eloBefore": 2052,
+    "eloAfter": 2043,
+    "opponentElo": 1906
+  },
+  {
+    "id": "#69215840",
+    "timestamp": "2025-10-15T16:56:00",
+    "player": "PHSANTOS",
+    "opponent": "RALLY_BEAST",
+    "playerScore": 2,
+    "opponentScore": 1,
+    "rounds": [
+      "7-13",
+      "11-4",
+      "14-10"
+    ],
+    "eloChange": 6,
+    "eloBefore": 2046,
+    "eloAfter": 2052,
+    "opponentElo": 2239
+  },
+  {
+    "id": "#69215850",
+    "timestamp": "2025-10-15T17:01:00",
+    "player": "PHSANTOS",
+    "opponent": "SMASH_HERO",
+    "playerScore": 1,
+    "opponentScore": 2,
+    "rounds": [
+      "4-14",
+      "9-15",
+      "12-5"
+    ],
+    "eloChange": -25,
+    "eloBefore": 2071,
+    "eloAfter": 2046,
+    "opponentElo": 1991
+  },
+  {
+    "id": "#69215860",
+    "timestamp": "2025-10-15T17:06:00",
+    "player": "PHSANTOS",
+    "opponent": "NETPLAY_PRO",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "12-4",
+      "11-8"
+    ],
+    "eloChange": 18,
+    "eloBefore": 2053,
+    "eloAfter": 2071,
+    "opponentElo": 1877
+  },
+  {
+    "id": "#69215870",
+    "timestamp": "2025-10-15T17:11:00",
+    "player": "PHSANTOS",
+    "opponent": "BACKSPIN_KING",
+    "playerScore": 2,
+    "opponentScore": 1,
+    "rounds": [
+      "13-4",
+      "14-10",
+      "4-12"
+    ],
+    "eloChange": 22,
+    "eloBefore": 2031,
+    "eloAfter": 2053,
+    "opponentElo": 2145
+  },
+  {
+    "id": "#69215880",
+    "timestamp": "2025-10-15T17:16:00",
+    "player": "PHSANTOS",
+    "opponent": "SPIN_WIZARD",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "12-6",
+      "11-8"
+    ],
+    "eloChange": 9,
+    "eloBefore": 2022,
+    "eloAfter": 2031,
+    "opponentElo": 1942
+  },
+  {
+    "id": "#69215890",
+    "timestamp": "2025-10-15T17:21:00",
+    "player": "PHSANTOS",
+    "opponent": "BLOCK_BOSS",
+    "playerScore": 2,
+    "opponentScore": 1,
+    "rounds": [
+      "14-8",
+      "12-15",
+      "15-13"
+    ],
+    "eloChange": 23,
+    "eloBefore": 1999,
+    "eloAfter": 2022,
+    "opponentElo": 1827
+  },
+  {
+    "id": "#69215900",
+    "timestamp": "2025-10-15T17:26:00",
+    "player": "PHSANTOS",
+    "opponent": "FAST_ATTACK",
+    "playerScore": 0,
+    "opponentScore": 2,
+    "rounds": [
+      "3-13",
+      "12-14"
+    ],
+    "eloChange": -16,
+    "eloBefore": 2015,
+    "eloAfter": 1999,
+    "opponentElo": 1839
+  },
+  {
+    "id": "#69215910",
+    "timestamp": "2025-10-15T17:31:00",
+    "player": "PHSANTOS",
+    "opponent": "BACKSPIN_KING",
+    "playerScore": 2,
+    "opponentScore": 1,
+    "rounds": [
+      "15-7",
+      "15-8",
+      "9-13"
+    ],
+    "eloChange": 13,
+    "eloBefore": 2002,
+    "eloAfter": 2015,
+    "opponentElo": 2119
+  },
+  {
+    "id": "#69215920",
+    "timestamp": "2025-10-15T17:36:00",
+    "player": "PHSANTOS",
+    "opponent": "LOOP_MASTER",
+    "playerScore": 1,
+    "opponentScore": 2,
+    "rounds": [
+      "15-7",
+      "2-11",
+      "5-15"
+    ],
+    "eloChange": -14,
+    "eloBefore": 2016,
+    "eloAfter": 2002,
+    "opponentElo": 2092
+  },
+  {
+    "id": "#69215930",
+    "timestamp": "2025-10-15T17:41:00",
+    "player": "PHSANTOS",
+    "opponent": "SMASHER99",
+    "playerScore": 1,
+    "opponentScore": 2,
+    "rounds": [
+      "14-12",
+      "9-13",
+      "4-14"
+    ],
+    "eloChange": -25,
+    "eloBefore": 2041,
+    "eloAfter": 2016,
+    "opponentElo": 2232
+  },
+  {
+    "id": "#69215940",
+    "timestamp": "2025-10-15T17:46:00",
+    "player": "PHSANTOS",
+    "opponent": "BACKSPIN_KING",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "15-12",
+      "14-6"
+    ],
+    "eloChange": 18,
+    "eloBefore": 2023,
+    "eloAfter": 2041,
+    "opponentElo": 2149
+  },
+  {
+    "id": "#69215950",
+    "timestamp": "2025-10-15T17:51:00",
+    "player": "PHSANTOS",
+    "opponent": "SERVE_MASTER",
+    "playerScore": 1,
+    "opponentScore": 2,
+    "rounds": [
+      "14-4",
+      "9-13",
+      "2-12"
+    ],
+    "eloChange": -18,
+    "eloBefore": 2041,
+    "eloAfter": 2023,
+    "opponentElo": 2122
+  },
+  {
+    "id": "#69215960",
+    "timestamp": "2025-10-15T17:56:00",
+    "player": "PHSANTOS",
+    "opponent": "SPIN_WIZARD",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "14-4",
+      "14-7"
+    ],
+    "eloChange": 7,
+    "eloBefore": 2034,
+    "eloAfter": 2041,
+    "opponentElo": 1932
+  },
+  {
+    "id": "#69215970",
+    "timestamp": "2025-10-15T18:01:00",
+    "player": "PHSANTOS",
+    "opponent": "SERVE_ACE",
+    "playerScore": 1,
+    "opponentScore": 2,
+    "rounds": [
+      "12-2",
+      "10-13",
+      "9-14"
+    ],
+    "eloChange": -5,
+    "eloBefore": 2039,
+    "eloAfter": 2034,
+    "opponentElo": 2087
+  },
+  {
+    "id": "#69215980",
+    "timestamp": "2025-10-15T18:06:00",
+    "player": "PHSANTOS",
+    "opponent": "DEFENSE_WALL",
+    "playerScore": 2,
+    "opponentScore": 0,
+    "rounds": [
+      "12-7",
+      "13-10"
+    ],
+    "eloChange": 15,
+    "eloBefore": 2024,
+    "eloAfter": 2039,
+    "opponentElo": 2059
+  },
+  {
+    "id": "#69215990",
+    "timestamp": "2025-10-15T18:11:00",
+    "player": "PHSANTOS",
+    "opponent": "SERVE_ACE",
+    "playerScore": 2,
+    "opponentScore": 1,
+    "rounds": [
+      "7-15",
+      "12-6",
+      "11-5"
+    ],
+    "eloChange": 14,
+    "eloBefore": 2010,
+    "eloAfter": 2024,
+    "opponentElo": 1850
+  },
+  {
+    "id": "#69216000",
+    "timestamp": "2025-10-15T18:16:00",
+    "player": "PHSANTOS",
+    "opponent": "TABLE_TITAN",
+    "playerScore": 1,
+    "opponentScore": 2,
+    "rounds": [
+      "13-8",
+      "8-11",
+      "8-11"
+    ],
+    "eloChange": -12,
+    "eloBefore": 2022,
+    "eloAfter": 2010,
+    "opponentElo": 1900
+  }
+]
